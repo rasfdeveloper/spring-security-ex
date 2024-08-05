@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: spring-security-ex
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        client-id: id
+                        client-secret: id
+            resourceserver:
+                jtw:
+                    issuer-uri: https://accounts.google.com
